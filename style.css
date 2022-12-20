@@ -76,6 +76,12 @@ li a {
     font-size      : 18px;
     font-family    : 'Koulen';
     opacity        : 0.8;
+    transition: all 0.5s;
+}
+
+nav li a:hover{
+    opacity: 1;
+    transition: all 0.5s;
 }
 
 li a.active {

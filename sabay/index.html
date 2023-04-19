@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabay News</title>
+    <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#">
+                <img src="./imgs/logo.png" alt="logo" class="logo">
+            </a>
+            <a href="#">
+                <img src="./imgs/ads1.jpg" alt="ads" width="100%" class="ads">
+            </a>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#" class="active">
+                    <img src="./imgs/home.png" alt="home">
+                </a></li>
+                <li><a href="#">កម្សាន្ត</a></li>
+                <li><a href="#">បច្ចេកវិទ្យា</a></li>
+                <li><a href="#">ជីវិតនិងសង្គម</a></li>
+                <li><a href="#">កីឡា</a></li>
+                <li><a href="#">ផ្លូវទៅស្រុក</a></li>
+                <li><a href="#">Auto Talk</a></li>
+                <li><a href="#">World Cup</a></li>
+                <li><a href="#">SlamBal</a></li>
+                <li><a href="#">PortCast</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="recent-post my-3">
+            <div>
+                <a href="#" class="post-item" style="background-image: url('./imgs/thumbnails/t1.jpg');">
+                    <div class="category c-bg-pink">កម្សាន្ត</div>
+                    <div class="content">
+                        <div>
+                            <h5>សេចក្ដីប្រកាសចេញផ្សាយកាលពីថ្ងៃមិញ
+                                ពុំមែនជារបៀបវារៈផ្លូវការរបស់ពិធីបិទកីឡាជាតិលើកទី ៣ ទេ</h5>
+                            <p>នៅថ្ងៃនេះ មានការបែកធ្លាយរបៀបវារៈមិនត្រឹមត្រូវជាផ្លូវការ
+                                ពិធីបិទកីឡាជាតិលើកទី ៣ ដែលនឹងត្រូវធ្វើឡើងនៅ ថ្ងៃទី ៣០ វិច្ឆិកា ឆ្នាំ ២០២២
+                                នៅពហុកីឡាដ្ឋានជាតិមរតកតេជោ ដែលការសម្តែងមួយចំនួនត្រូវបានគេលុបចេញ ឬមិនទាន់ដាក់ចូល
+                                មុនទេបង្ហោះជាសាធារណៈ។</p>
+                        </div>
+                        <p>ម្សិលមិញ ម៉ោង 18:24</p>
+                    </div>
+                </a>
+                <a href="#" class="post-item" style="background-image: url('./imgs/thumbnails/t2.jpg');">
+                    <div class="category c-bg-blue">បច្ចេកវិទ្យា</div>
+                    <div class="content">
+                        <div>
+                            <h5>ចេញ​រកស៊ី​ហើយ តែ​ចង់​ដឹង​ខ្លួន​មាន​ភាព​ជា​ម្ចាស់​អាជីវកម្ម ឬ​សហគ្រិន តាម​ដាន​ទាំង​អស់​គ្នា!</h5>
+                            <p>និន្នាការ​នៃ​ការ​ចេញ​រកស៊ី​ខ្លួន​ឯង
+                                ធ្វើ​ឲ្យ​មាន​យុវជន​ជា​ច្រើន​បាន​ហក់​ចូល​មក​ប្រឡូក​ជំនួញ​ដោយ​បង្កើត​អាជីវកម្ម​ខ្លួន​ឯង
+                                ដែល​ភាគ​ច្រើន ជា​ប្រភេទ​សហគ្រាស​ធុនតូច និង​មធ្យម(SME)។ ត្បិត​យ៉ាង​នេះ
+                                នៅ​ក្នុង​នៅ​មាន​លាយឡំ​រវាង ម្ចាស់​អាជីវកម្ម និង​សហគ្រិន។</p>
+                        </div>
+                        <p>ម្សិលមិញ ម៉ោង 18:24</p>
+                    </div>
+                </a>
+                <a href="#" class="post-item" style="background-image: url('./imgs/thumbnails/t3.jpg');">
+                    <div class="category c-bg-sky">ជីវិតនិងសង្គម</div>
+                    <div class="content">
+                        <div>
+                            <h5>ស្មាត់​ យុន​ ប្រាប់​មូលហេតុ​លោត​វាយ​សេវា​មិន​សូវ​បាន​ល្អ​ពេល​ប៉ះ​គោព្រៃ​កណ្ដាល​</h5>
+                            <p>តារា​បាល់ទះ​ល្បី​ឈ្មោះ​គ្រប់​តារាង​ ស្មាត់​ យុន​
+                                ថា​មូល​ហេតុ​លោត​វាយ​សេវា​មិន​សូវ​បាន​ល្អ​ ឬ​អស់ៗ​ពេល​ប៉ះ​ក្រុម​គោព្រៃ​កណ្ដាល​
+                                ដោយ​សារ​តែ​មិន​ស្និត​ជា​មួយ​បាល់ ​ព្រោះ​ច្បាប់​ប្រកួត​តម្រូវ​ឲ្យ​វាយ​វិល​ជុំ។​
+                            </p>
+                        </div>
+                        <p>ម្សិលមិញ ម៉ោង 18:24</p>
+                    </div>
+                </a>
+                <a href="#" class="post-item" style="background-image: url('./imgs/thumbnails/t4.jpg');">
+                    <div class="category c-bg-yellow">កីឡា</div>
+                    <div class="content">
+                        <div>
+                            <h5>កូរ៉េខាងត្បូង ទោះមិនអាចឈ្នះដូចជប៉ុន តែក្រឡុកអ៊ុយរ៉ាហ្គាយមិនអន់ដែរនៅ World Cup យប់មិញ</h5>
+                            <p>កូរ៉េខាងត្បូង ក្លាយជាក្រុមមកពីអាស៊ីទីបី
+                                ដែលបង្ហាញទម្រង់លេងយ៉ាងល្អទល់នឹងក្រុមយក្សមកពីឡាទីនគឺ
+                                អ៊ុយរ៉ាហ្គាយដោយបញ្ចប់ក្នុងលទ្ធផល ០-០ ស្មើគ្នា។ មុននេះអារ៉ាប៊ី សាអូឌីត
+                                បានយកឈ្នះអាហ្សង់ទីន ហើយជប៉ុនបានផ្ដួលអាល្លឺម៉ង់យ៉ាងគួរឲ្យភ្ញាក់ផ្អើល។</p>
+                        </div>
+                        <p>ម្សិលមិញ ម៉ោង 18:24</p>
+                    </div>
+                </a>
+                <div class="clear"></div>
+            </div>
+            <div>
+                <a href="#" class="post-item">
+                    <img src="./imgs/ads/top1.jpg" alt="ads" width="100%">
+                </a>
+                <a href="#" class="post-item">
+                    <img src="./imgs/ads/top2.jpg" alt="ads" width="100%">
+                </a>
+            </div>
+        </section>
+        <div class="clear"></div>
+        
+        <section class="my-5">
+            <div class="section-header">
+                <a href="#">វីដេអូ <span>&#9193;</span></a>
+            </div>
+            <div class="section-content">
+                <div class="s-item">
+                    <a href="#">
+                        <div class="thumbnail">
+                            <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/Local-Sports/Autor-racing/639557e063a5e_1670731740_small.jpg" alt="thumbnail">
+                        </div>
+                        <h5 class="item-title">
+                            សៀក​ ពេជ្រ​ មុន​ប្រកួត​មិន​រំពឹង​ដល់​លេខ១ តែ​សំណាង​ល្អ​ពេល​ប្រកួត​ម៉ូតូ​អត់​ខូច​
+                        </h5>
+                    </a>
+                </div>
+                <div class="s-item">
+                    <a href="#">
+                        <div class="thumbnail">
+                            <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/Local-Sports/Volleyball-League-1/Slamball(2)/638ee92239fca_1670310120_small.jpg" alt="thumbnail">
+                        </div>
+                        <h5 class="item-title">
+                            ប៊ន​ ណារិទ្ធ៖​ សរសើរ​បង​ម៉ាប់ឆ្វេង​ គាត់​ចាស់​នៅតែ​ល្អ​ជា​ពិសេស​បច្ចេកទេស​នេះ​
+                        </h5>
+                    </a>
+                </div>
+                <div class="s-item">
+                    <a href="#">
+                        <div class="thumbnail">
+                            <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Ent-Int/Korea/Korean-253/6385910ea58a5_1669697760_small.png" alt="thumbnail">
+                        </div>
+                        <h5 class="item-title">
+                            ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                        </h5>
+                    </a>
+                </div>
+                <div class="s-item-list">
+                    <div class="l-left">
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June-24/63855348e07ff_1669681980_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Artroom-Photo/2022/SIGNATURE-SHOW-PROJECT/MADE-IN-CAMBODIA/EP-9-SAMAI/63844bb047046_1669614480_small.png" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June-24/638410d4aeaed_1669599420_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/Local-Sports/Volleyball-League-1/Slamball(2)/6380373abab76_1669347120_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June-24/637dba7bf126d_1669184100_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June-24/637c380b44e9b_1669085160_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June-24/637b2dd80265f_1669017000_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Ent-Int/Others/Other-56/63661801c9186_1667635200_small.png" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="l-right">
+                        <a href="#">
+                            <img src="./imgs/ads/item1.gif" alt="ads" width="100%" class="ads">
+                        </a>
+                        <a href="#">
+                            <img src="./imgs/ads/item2.gif" alt="ads" width="100%" class="ads">
+                        </a>
+                        <a href="#">
+                            <img src="./imgs/ads/item3.jpg" alt="ads" width="100%" class="ads">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-5">
+            <div class="section-header c-line-pink">
+                <a href="#" class="c-bg-pink">កម្សាន្ត <span>&#9193;</span></a>
+            </div>
+            <div class="section-content">
+                <div class="s-item-list">
+                    <div class="l-right sub-list">
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Local-Entertainment/Another-559/639c1d4580037_1671175440_small.png" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title c-bg-pink">
+                                    សៀក​ ពេជ្រ​ មុន​ប្រកួត​មិន​រំពឹង​ដល់​លេខ១ តែ​សំណាង​ល្អ​ពេល​ប្រកួត​ម៉ូតូ​អត់​ខូច​
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="l-left">
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Local-Entertainment/Another-559/639bf0e7d3e4e_1671164100_small.png" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Local-Entertainment/Another-559/639bddff498ee_1671159240_small.png" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Vichny/Coke-food/6392b684a504b_1670559360_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Ent-Int/Korea/Korean-254/639ac4cdbe2bb_1671087300_small.png" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Kumnith(1)/Kumnith-Ent/Ent-(2)/639b2215a1e6e_1671111180_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/December-15-Onward/639adf522a0d5_1671094080_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/KevPumsen/Suin25/639addbe1aacf_1671093660_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Local-Entertainment/Another-559/639acc38075ad_1671089160_small.png" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-5">
+            <div class="section-header c-line-blue">
+                <a href="#" class="c-bg-blue">បច្ចេកវិទ្យា <span>&#9193;</span></a>
+            </div>
+            <div class="section-content">
+                <div class="s-item-list">
+                    <div class="l-right sub-list">
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/December-15-Onward/639c9d0fdeeaa_1671208200_small.png" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title c-bg-blue">
+                                    សៀក​ ពេជ្រ​ មុន​ប្រកួត​មិន​រំពឹង​ដល់​លេខ១ តែ​សំណាង​ល្អ​ពេល​ប្រកួត​ម៉ូតូ​អត់​ខូច​
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="l-left">
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Kumnith(1)/PR(7)/639c20abb2614_1671176340_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Kumnith(1)/PR(7)/639af34872615_1671099180_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/December-15-Onward/639acd3cb5bc2_1671089460_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/December-PR-All/6398067614ba5_1670907480_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/KevPumsen/SuIn24/639703964ff01_1670841180_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Kumnith(1)/PR(7)/6396af656c061_1670819640_small.jpeg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Kumnith(1)/PR(7)/63968d9fb4e5b_1670811000_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/December-PR-All/63916057d5fc1_1670471760_small.png" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-5">
+            <div class="section-header c-line-sky">
+                <a href="#" class="c-bg-sky">ជីវិតនិងសង្គម <span>&#9193;</span></a>
+            </div>
+            <div class="section-content">
+                <div class="s-item-list">
+                    <div class="l-right sub-list">
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/December-15-Onward/639c84eb7ec1b_1671202020_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title c-bg-sky">
+                                    សៀក​ ពេជ្រ​ មុន​ប្រកួត​មិន​រំពឹង​ដល់​លេខ១ តែ​សំណាង​ល្អ​ពេល​ប្រកួត​ម៉ូតូ​អត់​ខូច​
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="l-left">
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/International-Sports/Freelancer-Sport/football(61)/Football(62)/61c1a05b0b808_1640079420_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Vichny/PR(5)/PR-H2/639c2cf1eb9d5_1671179460_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Vichny/PR(5)/PR-H2/639c1f5f96e3d_1671175980_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Kumnith(1)/PR(7)/639aabf97c431_1671080940_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Kumnith(1)/kumnith-Social/Social-(7)/639bec6622f1e_1671162960_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/December-15-Onward/639be6d30fac7_1671161520_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/December-15-Onward/639be1d14e2d6_1671160260_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/December-15-Onward/639aeea11b695_1671097980_small.png" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-5">
+            <div class="section-header c-line-yellow">
+                <a href="#" class="c-bg-yellow">កីឡា <span>&#9193;</span></a>
+            </div>
+            <div class="section-content">
+                <div class="s-item-list">
+                    <div class="l-right sub-list">
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/International-Sports/soccer/Soccer54/Soccer144/Soccer214/639c3265c3a10_1671180900_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    សៀក​ ពេជ្រ​ មុន​ប្រកួត​មិន​រំពឹង​ដល់​លេខ១ តែ​សំណាង​ល្អ​ពេល​ប្រកួត​ម៉ូតូ​អត់​ខូច​
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="l-left">
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/International-Sports/Freelancer-Sport/football(93)/639c684882abc_1671194640_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/International-Sports/Freelancer-Sport/football(93)/639c6564ce587_1671193920_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/International-Sports/Freelancer-Sport/football(93)/639c3d07a66f7_1671183600_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Kumnith(1)/Kumnith-Sport/Sport-other/639c2c698dbb8_1671179340_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/International-Sports/soccer/Soccer54/Soccer144/Soccer214/639c22873a5aa_1671176820_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/Local-Sports/Wrestling/Wrestling-A1/639c123a2a2c7_1671172620_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/International-Sports/Freelancer-Sport/football(93)/639b047f25686_1671103560_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/International-Sports/Freelancer-Sport/football(93)/639b0bb5499bc_1671105420_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-5">
+            <div class="section-header c-line-grey">
+                <a href="#" class="c-bg-grey">deals <span>&#9193;</span></a>
+            </div>
+            <div class="section-content">
+                <div class="s-item-list">
+                    <div class="l-right sub-list">
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/December-15-Onward/639bec84418a1_1671162960_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title c-bg-grey">
+                                    សៀក​ ពេជ្រ​ មុន​ប្រកួត​មិន​រំពឹង​ដល់​លេខ១ តែ​សំណាង​ល្អ​ពេល​ប្រកួត​ម៉ូតូ​អត់​ខូច​
+                                </h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="l-left">
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/PR-November-2022-Simala/637c27b718d1d_1669080960_small.png" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Vichny/foodpandaaaa/foodpanda(3)/63630895e50e8_1667434620_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Vichny/PR(5)/PR-2/635262ed203b3_1666343640_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Vichny/LMCAR/6344c79869bff_1665451920_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Vichny/Coke-food/6332c0b070444_1664270460_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Vichny/PR(5)/PR-2/632d68d8b65e8_1663920300_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Vichny/SabayXUFG/Park-Cafe/632c13b7c1368_1663833000_small.png" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="s-item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Vichny/PHILLIP_BANK/6325380caf9e7_1663383540_small.jpg" alt="thumbnail">
+                                </div>
+                                <h5 class="item-title">
+                                    ឈុតឆាកមិនអាចបំភ្លេចបាន និងត្រូវបានបញ្ចូលក្នុងប្រវត្តិសាស្ត្រ MAMA ច្រើនឆ្នាំកន្លងមកនេះ
+                                </h5>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div>
+                <div class="desc">
+                    <img src="./imgs/footer-logo.png" alt="footer logo" class="logo-footer">
+                    <p>&copy; រក្សា​សិទ្ធិ​គ្រប់​យ៉ាង​ដោយ​ Sabay ឆ្នាំ​២០១៦</p>
+                    <a href="#">គោលការណ៍​ភាព​ឯកជន | Privacy Policy</a>
+                    <h4>អាសយដ្ឋាន</h4>
+                    <p>អគារ​លេខ ៣០៨ មហាវិថីព្រះមុន្នីវង្ស <br>
+                        សង្កាត់បឹងរាំង ខណ្ឌដូនពេញ</p>
+                </div>
+                <div class="about-us">
+                    <h3>អំពីយើង</h3>
+                    <p>Sabay Digital Corporation ជា​ក្រុមហ៊ុន​ព័ត៌មាន​ឌីជីថល និង​កម្សាន្ត​ឈាន​មុខ​គេ​នៅ​កម្ពុជា។ ព័ត៌មាន​បន្ថែម</p>
+                    <p>ផលិត​ផល​ និង​ សេវាកម្ម របស់ Sabay</p>
+                    <div class="all-logo">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="contact">
+                    <h3>ជួបគ្នានៅបណ្តាញសង្គម</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">Tiktok</a></li>
+                        <li><a href="#">Telegram</a></li>
+                    </ul>
+                    <h4>ទំនាក់ទំនង</h4>
+                    <a href="#">info@sabay.com</a>
+                    <p>023 228 000</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
